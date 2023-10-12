@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import AchievementsSection from "./components/AchievementsSection";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <AboutSection />
         <ProjectsSection />
       </div>
+      <Footer />
     </div>
   );
 };
