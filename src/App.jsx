@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import AchievementsSection from "./components/AchievementsSection";
+import AboutSection from "./components/AboutSection";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <div className="container mt-24 mx-auto px-12 py-4">
         <HeroSection />
         <AchievementsSection />
+        <AboutSection />
       </div>
     </div>
   );
