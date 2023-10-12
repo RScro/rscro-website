@@ -8,7 +8,7 @@ const Footer = () => {
         <span>
           <img src={logo} width={100} height={100} />
         </span>
-        <p className="text-slate-600">
+        <p className="text-slate-600 mt-4 sm:mt-0">
           Copyright Ⓒ 2023 RScro. All Rights Reserved.
         </p>
       </div>
