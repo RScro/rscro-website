@@ -11,33 +11,15 @@ const Navbar = () => {
         <a href={"/"} className="text-2xl md:text-5xl text-white font-semibold">
           <img src={logo} width={100} height={100} className="py-2" />
         </a>
-        <div className="mobile-menu block md:hidden">
-          {!navbarOpen ? (
-            <button
-              onClick={() => setNavbarOpen(true)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
-            >
-              <Bars3Icon className="h-5 w-5" />
-            </button>
-          ) : (
-            <button
-              onClick={() => setNavbarOpen(false)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
-            >
-              <XMarkIcon className="h-5 w-5" />
-            </button>
-          )}
-        </div>
-        <div className="menu hidden md:block md:w-auto" id="navbar">
-          <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0 text-xl gap-6 font-normal text-gray-300">
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-          </ul>
-        </div>
+
+        <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0 text-xl gap-6 font-normal text-gray-300">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+        </ul>
       </div>
     </nav>
   );
