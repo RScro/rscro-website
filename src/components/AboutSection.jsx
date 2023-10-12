@@ -44,6 +44,10 @@ const TAB_DATA = [
         <li>Logo Design</li>
         <li>GUI Development</li>
         <li>Social Media Marketing</li>
+        <li className="text-[#121212]"></li>
+        <li className="text-[#121212]"></li>
+        <li className="text-[#121212]"></li>
+        <li className="text-[#121212]"></li>
       </ul>
     ),
   },
@@ -68,7 +72,7 @@ const AboutSection = () => {
           width={500}
           height={500}
         />
-        <div className="mt-4 lg:mt-0 text-left flex flex-col h-full mb-20">
+        <div className="mt-4 lg:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             I am a Full-Stack Blockchain Developer with a passion for Blockchain
