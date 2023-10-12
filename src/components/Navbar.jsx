@@ -29,8 +29,13 @@ const Navbar = () => {
           )}
         </div>
         <div className="menu hidden md:block md:w-auto" id="navbar">
-          <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
-            <li>gas</li>
+          <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0 text-xl gap-6 font-normal text-gray-300">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
           </ul>
         </div>
       </div>

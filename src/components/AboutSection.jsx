@@ -74,7 +74,7 @@ const AboutSection = () => {
         />
         <div className="mt-4 lg:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
+          <p className="text-base lg:text-base text-[#c7cccf]">
             I am a Full-Stack Blockchain Developer with a passion for Blockchain
             technology. I have over 5 years of diverse blockchain experience,
             including Freelancing, owning NFT projects, building Smart Contracts
