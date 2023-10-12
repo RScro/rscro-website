@@ -35,7 +35,7 @@ const AchievementsSection = () => {
               } flex-auto`}
               style={{ flex: "1 1%" }} // Keep four columns on larger screens
             >
-              <h2 className="text-white text-2xl sm:text-4xl font-bold flex flex-row">
+              <h2 className="text-white text-4xl font-bold flex flex-row">
                 {achievement.prefix}
                 <AnimatedNumbers
                   includeComma
