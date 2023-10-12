@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
+import AchievementsSection from "./components/AchievementsSection";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Navbar />
       <div className="container mt-24 mx-auto px-12 py-4">
         <HeroSection />
+        <AchievementsSection />
       </div>
     </div>
   );
