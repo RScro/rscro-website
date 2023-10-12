@@ -4,17 +4,17 @@ import AnimatedNumbers from "react-animated-numbers";
 const achievementsList = [
   {
     metric: "Projects",
-    value: "100",
+    value: "30",
     postfix: "+",
   },
   {
     prefix: "~",
     metric: "Clients",
-    value: "40",
+    value: "10",
   },
   {
     metric: "Awards",
-    value: "7",
+    value: "3",
   },
   {
     metric: "Years",
