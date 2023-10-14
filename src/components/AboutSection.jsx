@@ -76,7 +76,7 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-base text-[#c7cccf]">
             I am a Full-Stack Blockchain Developer with a passion for Blockchain
-            technology. I have over 5 years of diverse blockchain experience,
+            technology. I have over 3 years of diverse blockchain experience,
             including Freelancing, owning NFT projects, building Smart Contracts
             & running MEV Bots. I am a highly capable self-learner and problem
             solver. I am always looking to expand my knowledge and skill set.{" "}
