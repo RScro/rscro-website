@@ -33,8 +33,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Full-Stack Blockchain Developer, MEV Bots, serial learner & problem
-            solver.
+            Full-Stack Blockchain Developer, serial learner & professional
+            problem solver.
           </p>
           <div>
             <a
