@@ -20,7 +20,7 @@ const HeroSection = () => {
               sequence={[
                 "Blockchain Developer",
                 3000,
-                "Web Developer",
+                "Rust Developer",
                 1500,
                 "MEV Searcher",
                 1500,
