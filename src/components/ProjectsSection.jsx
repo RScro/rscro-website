@@ -59,7 +59,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects" className="mb-16">
+    <div id="projects" className="mb-16">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-0 md:mb-6">
         My Projects
       </h2>
@@ -84,7 +84,7 @@ const ProjectsSection = () => {
           </motion.li>
         ))}
       </ul>
-    </section>
+    </div>
   );
 };
 

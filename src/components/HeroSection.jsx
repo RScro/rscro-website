@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-16 text-center">
+    <div className="lg:py-16 text-center">
       <div className="grid grid-cols-1">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -33,7 +33,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Full-Stack Blockchain Developer, serial learner & professional
+            Self-taught Blockchain Developer, serial learner & professional
             problem solver.
           </p>
           <div>
@@ -60,7 +60,7 @@ const HeroSection = () => {
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         ></motion.div>
       </div>
-    </section>
+    </div>
   );
 };
 

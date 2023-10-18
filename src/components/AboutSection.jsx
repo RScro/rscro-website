@@ -64,24 +64,25 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
+    <div className="text-white" id="about">
       <div className="lg:grid lg:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <img src={rscro} className="md:mx-auto" width={500} height={500} />
         <div className="mt-4 lg:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-base text-[#c7cccf]">
-            I am a Full-Stack Blockchain Developer with a passion for Blockchain
-            technology. I have over 3 years of diverse blockchain experience,
-            including Freelancing, owning NFT projects, building Smart Contracts
-            & running MEV Bots. I am a highly capable self-learner and problem
-            solver. I am always looking to expand my knowledge and skill set.{" "}
+            Historically a Logo Designer & NFT Artist, now a self-taught
+            Blockchain Developer. My biggest strengths are my problem solving
+            skills, my stress tolerance, and resilience in overcoming lengthy
+            tasks. I have no issue performing under immense stress and solving
+            complex problems 12h a day. I adapt extremely quickly, have a very
+            fast learning ability and a growth mindset.
             <br />
             <br />
-            Not only am I well versed in Blockchain technology, but I also have
-            experience mentoring Junior Developers, leading different MEV
-            project initiatives, and am a highly effective team player. My
-            communication and people skills help me excel in leadership and
-            team-working roles.
+            When starting a new project, I always go on deep dives to understand
+            everything relevant in a topic, no matter how difficult. Constantly
+            seeking out feedback and engaging in constructive dialogue with
+            others for improvements and optimizations. I take ownership and
+            deliver amazing & efficient results.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -111,7 +112,7 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

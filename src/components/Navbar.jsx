@@ -13,6 +13,10 @@ const navLinks = [
     title: "Projects",
     path: "#projects",
   },
+  {
+    title: "Experience",
+    path: "#experience",
+  },
 ];
 
 const Navbar = () => {
