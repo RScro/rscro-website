@@ -55,7 +55,7 @@ const Experience = () => {
             companyLink="https://www.fiverr.com/"
             time="Dec. 2018 - Jan. 2023"
             address="Remote"
-            work={`Designing & delivering high quality logos and ensuring client satisfaction with good communication & swift deliveries. 
+            work={`Designing & delivering high quality logos in Adobe Photoshop and ensuring client satisfaction with good communication & swift deliveries. 
             
             In September 2021, also started designing NFTs. Worked with several top tier NFT projects & earned a percentage of the mint funds, was further compensated for my knowledge in Blockchain technology that accelerated the NFTs growth. 
             
@@ -67,9 +67,8 @@ const Experience = () => {
             company="Freelance"
             time="Jan. 2023 - Present"
             address="Remote"
-            work="Learned Solidity and started freelancing, building NFT projects, building Smart Contracts & running MEV Bots. Leading different MEV project initiatives and contributing by being a highly effective team player.
-
-            Decided to learn Front-End Development libraries in April. 2023. Started building Dapps for clients using React.js, Next.js, Ethers.js, Tailwind CSS & Node.js."
+            work="In January of 2023, I decided to change my career path and learn Blockchain Development. Learned Solidity and started freelancing, building Smart Contracts & NFT projects. In February of 2023, I also learnt about MEV Bots. Developed an MEV Bot in 4 months built in Rust and started leading different MEV project initiatives and contributing by being a highly effective team player. Learned how the EVM works, Uniswap functions & DeFi in itself. Picked up Front-End Development libraries in April. 2023. Built Dapps for clients using React.js, Next.js, Ethers.js, Tailwind CSS & Node.js.
+            "
           />
 
           <li></li>

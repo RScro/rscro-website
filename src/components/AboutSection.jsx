@@ -71,11 +71,11 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-base text-[#c7cccf]">
             Historically a Logo Designer & NFT Artist, now a self-taught
-            Blockchain Developer. My biggest strengths are my problem solving
-            skills, my stress tolerance, and resilience in overcoming lengthy
-            tasks. I have no issue performing under immense stress and solving
-            complex problems 12h a day. I adapt extremely quickly, have a very
-            fast learning ability and a growth mindset.
+            Blockchain & Rust Developer. My biggest strengths are my problem
+            solving skills, my stress tolerance, and resilience in overcoming
+            lengthy tasks. I have no issue performing under immense stress and
+            solving complex problems 12h a day. I adapt extremely quickly, have
+            a very fast learning ability and a growth mindset.
             <br />
             <br />
             When starting a new project, I always go on deep dives to understand
